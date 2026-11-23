@@ -1,0 +1,23 @@
+AddonId: 'QuickAdd_FullscreenAddGame'
+Type: Generic
+Name: 'Quick Add (Fullscreen)'
+Author: 'Afonso Jeremias'
+ShortDescription: 'Add games and apps from Fullscreen mode using only your controller, and move files and folders in the background.'
+Description: |
+  Quick Add lets you add games and apps to Playnite without leaving Fullscreen mode for the desktop.
+
+  Open it from the Playnite menu (Extensions > Quick Add > Add a game or app...) and browse your drives and folders with the D-pad or stick. There is no cursor and no Windows file dialog, so everything works with a controller.
+
+  Features:
+  - Controller-first file browser: A to open, B to go back, Y for places and drives.
+  - Add several games at once: mark files with X (even across different folders), then press Start to add them all. You are asked for each game's name in turn.
+  - Supports .exe, .lnk, .bat and .cmd files; shortcuts are resolved to their target.
+  - Move mode (Select button): mark files or folders with X, open the destination folder and press Start. Moving runs in the background with a progress bar and a notification when it finishes.
+  - The current mode is shown at the top and the button prompts change with it.
+  - In Desktop mode the extension uses the standard Windows dialogs.
+
+  Note: when a game folder is moved, games already in your library that point to it are not updated automatically.
+Tags: ['fullscreen', 'controller', 'add games', 'file manager', 'utility']
+SourceUrl: https://github.com/AfonsoJeremias/QuickAdd
+InstallerManifestUrl: https://raw.githubusercontent.com/AfonsoJeremias/QuickAdd/master/installer.yaml    
+IconUrl: https://raw.githubusercontent.com/AfonsoJeremias//QuickAdd/master/icon.png
